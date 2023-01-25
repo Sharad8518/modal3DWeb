@@ -1,0 +1,78 @@
+
+
+
+.text{
+    background: linear-gradient(90deg,#00dbde,#fc00ff);
+
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 90px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: mymove 9s infinite linear;
+}
+
+@keyframes mymove {
+    0%   {
+
+        background: linear-gradient(90deg,#00dbde,#fc00ff);
+
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 90px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    }
+    50%{
+        background: linear-gradient(90deg,#00dbde,#7bed9f);
+
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 90px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+    }
+
+    100% {
+
+        background: linear-gradient(90deg,#eccc68,#fc00ff);
+
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 90px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: mymove 5s infinite linear;
+    }
+  }
+
+ 
+  span{
+    position:absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 -3px 5px #fff inset,
+                0 -10px 25px #ddf1e4 inset,
+                0 -2px 2px  #ddf1e4 inset,
+                2px 0 5px #fff inset,
+                -2px 0 5px #fff inset,
+                0 5px 25px #fff inset;
+                animation: animate 5s linear infinite;
+  }
+@keyframes animate {
+
+    0%{
+        transform: translate(-50%,-50%);
+        opacity: 1;
+    }
+    100%{
+        transform: translate(-50%,-1000%);
+        opacity: 1;
+    }
+    
+}
