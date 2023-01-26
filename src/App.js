@@ -16,13 +16,13 @@ function App() {
 
 
   return (
-  <div>
+  <>
    <Navbar/>
    <TopHeader/>
    <About/>
     <Knowladge/>
     <Work/>
-  </div>
+  </>
   );
 }
 
