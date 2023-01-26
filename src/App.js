@@ -8,6 +8,8 @@ import { Container,Row,Col } from "react-bootstrap";
 import TopHeader from "./component/TopHeader";
 import Navbar from "./component/Navbar";
 import About from "./component/About";
+import Knowladge from "./component/Knowladge";
+import Work from "./component/Work";
 
 function App() {
  
@@ -18,7 +20,8 @@ function App() {
    <Navbar/>
    <TopHeader/>
    <About/>
-    
+    <Knowladge/>
+    <Work/>
   </div>
   );
 }

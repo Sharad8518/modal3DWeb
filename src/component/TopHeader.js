@@ -8,37 +8,34 @@ import "../componetCss/topHeader.css"
 
 export default function TopHeader() {
 
-  document.addEventListener("mousemove",function(e){
+  
 
     let body =document.querySelector("body");
     let bubble =document.createElement("span");
-    let x= e.offsetX;
-    let y =e.offsetY;
-    bubble.style.left =x+"px";
-    bubble.style.top =x+"px";
+ 
     let size =Math.random()*10;
 
-    bubble.style.width=20 +size +"px";
-    bubble.style.height=20 +size +"px";
+    bubble.style.width=80 +size +"px";
+    bubble.style.height=80 +size +"px";
 
     body.appendChild(bubble);
     
     setTimeout(function(){
       bubble.remove();
     },3000);
-  });
+  
 
 
 
 
   return (
-    <div> <Container>
+    <div style={{background:"#000"}}> <Container>
     <Row>
       <Col md={6}>
         <div className="gpt3_header section_padding" id="home">
           <div className="gpt3_header-content">
-      <h1 className="text">Hi Pavan Ahirwar I Am Full Stack Developer From India</h1>
-      <h6 style={{marginTop:20}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </h6>
+      <h1 className="text">Hi Pavan Ahirwar I Am Full Stack Developer</h1>
+      <h6 style={{marginTop:20,color:"#fff"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </h6>
       </div>
       </div>
       </Col>
@@ -52,11 +49,29 @@ export default function TopHeader() {
       <House/>
       </Suspense>
     </Canvas>
+  
+  
 </div>
       </Col>
     </Row>
-
+    <Row>
+      <Col>
+      <div className="mx-auto d-block">
+      <span></span>
+      </div>
+      </Col>
+      <Col>
+      <span></span>
+      </Col>
+      <Col>
+      <div className="mx-auto d-block">
+      <span></span>
+      </div>
+      </Col>
+      </Row>
     </Container>
+  
+  
    </div>
   )
 }

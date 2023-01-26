@@ -28,7 +28,7 @@ export default function() {
     <div  className='gpt3_navbar'>
         <div className='gpt3_navbar-links'>
         <div className='gpt3_navbar-links_logo'>
-            <Image src="https://www.logodesign.net/images/home-page-logo-03.png" alt="logo" style={{width:65,height:50}} />
+            <Image src="https://www.logodesign.net/images/home-page-logo-03.png" alt="logo" style={{width:50,height:50,borderRadius:"100%"}} />
         </div>
         <div className='gpt3_navbar-links_container'>
         <Menu/>
