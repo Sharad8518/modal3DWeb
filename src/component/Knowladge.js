@@ -1,8 +1,18 @@
 import React from 'react'
 import { Container,Row,Col,Image } from 'react-bootstrap'
 import img from "../image/galaxy.png"
-
+import Lottie from 'react-lottie';
+import * as animationData from '../Anim/Comp.json'
 export default function Knowladge() {
+
+    const defaultOptions = {
+        loop: true,
+        autoplay: true, 
+        animationData: animationData,
+        rendererSettings: {
+          preserveAspectRatio: 'xMidYMid slice'
+        }
+      };
   return (
   <div style={{background:"#000"}}>
   <Container>
@@ -89,7 +99,11 @@ export default function Knowladge() {
 
         <Col md={6}>
         
-        <Image src={img} style={{width:"500px",height:"500px"}} className="img-fluid" alt="Responsive image" />
+        <Lottie options={defaultOptions}
+              height={400}
+              width={400}
+            
+             />
         </Col>
     </Row>
   </Container>

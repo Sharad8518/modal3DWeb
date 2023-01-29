@@ -10,6 +10,7 @@ import Navbar from "./component/Navbar";
 import About from "./component/About";
 import Knowladge from "./component/Knowladge";
 import Work from "./component/Work";
+import NavbarBootsrap from "./component/NavbarBootsrap";
 
 function App() {
  
@@ -17,7 +18,7 @@ function App() {
 
   return (
   <>
-   <Navbar/>
+ <NavbarBootsrap/>
    <TopHeader/>
    <About/>
     <Knowladge/>

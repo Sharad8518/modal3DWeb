@@ -57,15 +57,19 @@ export default function TopHeader() {
     <Row>
       <Col>
       <div className="mx-auto d-block">
-      <span></span>
+     
       </div>
       </Col>
       <Col>
+      <div >
       <span></span>
+      <span></span>
+      
+      </div>
       </Col>
       <Col>
       <div className="mx-auto d-block">
-      <span></span>
+      
       </div>
       </Col>
       </Row>

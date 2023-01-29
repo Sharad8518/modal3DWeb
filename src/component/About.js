@@ -4,6 +4,9 @@ import img from "../image/rocket.png"
 import cv from "../image/pavanfinal.pdf"
 
 export default function About() {
+
+
+  
   return (
     <div style={{background:"#000"}}>
     <h5 style={{textAlign:"center",fontSize:40,fontWeight:"bold",color:"#00dbde"}}>About Me</h5>
