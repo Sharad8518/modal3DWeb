@@ -15,10 +15,10 @@ export default function NavbarBootsrap() {
           <Nav className="me-auto">
             <Nav.Link href="#features">Home</Nav.Link>
             <Nav.Link href="#pricing">About</Nav.Link>
-            <Nav.Link href="#pricing">Service</Nav.Link>
+            <Nav.Link href="#pricing">Work</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Portfolio</Nav.Link>
+            <Nav.Link href="#deets"></Nav.Link>
             <Nav.Link eventKey={2} href="#memes">
             Contact
             </Nav.Link>

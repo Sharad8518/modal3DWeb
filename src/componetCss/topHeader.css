@@ -4,7 +4,9 @@
     font-family: 'DM Sans', sans-serif;
 
 }
-
+body{
+    background: #000;
+}
 
 .text{
     background: linear-gradient(90deg,#00dbde,#fc00ff);

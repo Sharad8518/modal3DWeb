@@ -28,8 +28,8 @@ export default function Knowladge() {
                 </div>
                 </Col>
             </Row>
-        <div style={{width:"100%",height:"20px",background:"#fff",borderRadius:50}}>
-            <div style={{width:"98%",height:"20px",background:"#00dbde",borderRadius:50}}></div>
+        <div style={{width:"100%",height:"10px",background:"#fff",borderRadius:50}}>
+            <div style={{width:"98%",height:"10px",background:"#00dbde",borderRadius:50}}></div>
 
         </div>
         </div>
@@ -43,8 +43,8 @@ export default function Knowladge() {
                 </div>
                 </Col>
             </Row>
-        <div style={{width:"100%",height:"20px",background:"#fff",borderRadius:50}}>
-            <div style={{width:"95%",height:"20px",background:"#00dbde",borderRadius:50}}></div>
+        <div style={{width:"100%",height:"10px",background:"#fff",borderRadius:50}}>
+            <div style={{width:"95%",height:"10px",background:"#00dbde",borderRadius:50}}></div>
 
         </div>
         </div>
@@ -58,8 +58,8 @@ export default function Knowladge() {
                 </div>
                 </Col>
             </Row>
-        <div style={{width:"100%",height:"20px",background:"#fff",borderRadius:50}}>
-            <div style={{width:"99%",height:"20px",background:"#00dbde",borderRadius:50}}></div>
+        <div style={{width:"100%",height:"10px",background:"#fff",borderRadius:50}}>
+            <div style={{width:"99%",height:"10px",background:"#00dbde",borderRadius:50}}></div>
 
         </div>
         </div>
@@ -74,8 +74,10 @@ export default function Knowladge() {
                 </div>
                 </Col>
             </Row>
-        <div style={{width:"100%",height:"20px",background:"#fff",borderRadius:50}}>
-            <div style={{width:"88%",height:"20px",background:"#00dbde",borderRadius:50}}></div>
+
+
+        <div style={{width:"100%",height:"10px",background:"#fff",borderRadius:50}}>
+            <div style={{width:"88%",height:"10px",background:"#00dbde",borderRadius:50}}></div>
 
         </div>
         </div>
@@ -89,11 +91,51 @@ export default function Knowladge() {
                 </div>
                 </Col>
             </Row>
-        <div style={{width:"100%",height:"20px",background:"#fff",borderRadius:50}}>
-            <div style={{width:"88%",height:"20px",background:"#00dbde",borderRadius:50}}></div>
+        <div style={{width:"100%",height:"10px",background:"#fff",borderRadius:50}}>
+            <div style={{width:"88%",height:"10px",background:"#00dbde",borderRadius:50}}></div>
 
         </div>
+       
         </div>
+
+
+        <div style={{marginTop:20}}>
+            <Row>
+                <Col ><h6 style={{color:"#fff"}}>Graphql</h6></Col>
+
+                <Col>
+                <div style={{display:"flex",alignItems:"flex-end",justifyContent:"flex-end"}}>
+                <h6 style={{color:"#00dbde"}}>80%</h6>
+                </div>
+                </Col>
+            </Row>
+        <div style={{width:"100%",height:"10px",background:"#fff",borderRadius:50}}>
+            <div style={{width:"88%",height:"10px",background:"#00dbde",borderRadius:50}}></div>
+
+        </div>
+        
+
+        
+        </div>
+        <div style={{marginTop:20}}>
+            <Row>
+                <Col ><h6 style={{color:"#fff"}}>AWS</h6></Col>
+
+                <Col>
+                <div style={{display:"flex",alignItems:"flex-end",justifyContent:"flex-end"}}>
+                <h6 style={{color:"#00dbde"}}>70%</h6>
+                </div>
+                </Col>
+            </Row>
+        <div style={{width:"100%",height:"10px",background:"#fff",borderRadius:50}}>
+            <div style={{width:"70%",height:"10px",background:"#00dbde",borderRadius:50}}></div>
+
+        </div>
+        
+
+        
+        </div>
+        
         
         </Col>
 

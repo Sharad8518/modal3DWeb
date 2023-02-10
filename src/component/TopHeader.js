@@ -42,7 +42,7 @@ export default function TopHeader() {
       <Col md={6}>
       <div style={{width:"100%",height:"80vh",marginTop:"10px",}} className="boxTopHeader">
       <Canvas>
-      <OrbitControls/>
+      <OrbitControls   enableZoom={false}  />
       <directionalLight intensity={0.5}/>
       <ambientLight intensity={0.2}/>
       <Suspense  fallback={null}>

@@ -12,6 +12,9 @@ import Knowladge from "./component/Knowladge";
 import Work from "./component/Work";
 import NavbarBootsrap from "./component/NavbarBootsrap";
 
+import ParticleBackground2 from "./component/ParticleBackground2";
+import ParticleBackground from "./component/ParticleBackground";
+
 function App() {
  
 
@@ -21,8 +24,10 @@ function App() {
  <NavbarBootsrap/>
    <TopHeader/>
    <About/>
-    <Knowladge/>
-    <Work/>
+    <Knowladge style={{marginTop:20}} />
+    <Work style={{marginTop:20}}/>
+    <br></br> <br></br>
+   <ParticleBackground2/>
   </>
   );
 }
