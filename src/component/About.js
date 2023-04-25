@@ -20,9 +20,8 @@ export default function About() {
       <Col md={6}>
         <div style={{display:"flex",marginTop:60}}>
         <h6 style={{color:"#fff",}}>I am Pavan Ahirwar and </h6>
-        <h6 style={{marginLeft:10,color:"#00dbde"}}>Web </h6>
-        <h6 style={{marginLeft:10,color:"#00dbde"}}>App </h6>
-        <h6 style={{marginLeft:10,color:"#00dbde"}}>Software Developer</h6>
+        <h6 style={{marginLeft:10,color:"#00dbde"}}>FullStack Developer </h6>
+        
         </div>
         <p style={{color:"#fff"}}>To make use  of my interpersonal skill to achieve goals of a company that focuses on customer satisfaction and customer experience</p>
       

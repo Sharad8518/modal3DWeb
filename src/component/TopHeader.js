@@ -34,10 +34,16 @@ export default function TopHeader() {
       <Col md={6}>
         <div className="gpt3_header section_padding" id="home">
           <div className="gpt3_header-content">
-      <h1 className="text">Hi Pavan Ahirwar I Am Full Stack Developer</h1>
-      <h6 style={{marginTop:20,color:"#fff"}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </h6>
+      <h1 className="text">Hi Pavan Ahirwar <br></br>I Am Full Stack Developer</h1>
+      <h6 style={{marginTop:20,color:"#fff"}}>I am Expert in Develop Responsive & Interactive Website & App . </h6>
+      <h6 style={{marginTop:5,color:"#fff"}}> I'm Expert CSS3 ,HTML5, Bootstrap, and Reactjs , React Native ,Electron ,node.js vary good Knowladge of JavaScript, python , c-sharp
+        and  I have one year experience in Web and App Development.</h6>
+       
+      
+      
       </div>
       </div>
+      
       </Col>
       <Col md={6}>
       <div style={{width:"100%",height:"80vh",marginTop:"10px",}} className="boxTopHeader">

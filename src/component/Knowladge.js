@@ -5,6 +5,14 @@ import Lottie from 'react-lottie';
 import * as animationData from '../Anim/Comp.json'
 export default function Knowladge() {
 
+    function getWindowDimensions() {
+        const { innerWidth: width, innerHeight: height } = window;
+        return {
+          width,
+          height
+        };
+      }
+
     const defaultOptions = {
         loop: true,
         autoplay: true, 
@@ -140,12 +148,19 @@ export default function Knowladge() {
         </Col>
 
         <Col md={6}>
-        
-        <Lottie options={defaultOptions}
-              height={400}
-              width={400}
-            
-             />
+        <div className='mx-auto d-block' id="lottie">
+        <Lottie
+    options={defaultOptions}
+    height={"100%"}
+    width={"100%"}
+    style={{
+      top: "30%",
+      right: "10%",
+      zIndex: -1,
+    
+    }}
+  />
+             </div>
         </Col>
     </Row>
   </Container>

@@ -2,8 +2,11 @@ import React from 'react'
 import { Container,Row,Col } from 'react-bootstrap'
 import "../componetCss/Work.css"
 import { FaGlobe,FaAndroid,FaDesktop } from "react-icons/fa";
+import { useNavigate } from 'react-router-dom';
 
 export default function Work() {
+
+ const navigate= useNavigate()
   return (
     <div style={{background:"#000"}}>
       <h6 style={{textAlign:"center",fontSize:40,fontWeight:"bold",color:"#00dbde",marginTop:50}}>Work Experience</h6>
@@ -46,6 +49,9 @@ export default function Work() {
     </Col>
     </Row>
     <h6 style={{textAlign:"center",fontSize:20,fontWeight:"bold",color:"#00dbde",marginBottom:20}}>these are used for frontend now than use for backend graphql ,mongodb ,AWS and node,js</h6>
+
+    <h6 style={{color:"#fff" ,textAlign:"center"}}>I Am Create First Basic 2D Game in Unity And If You Are Play Game Click Button Now 👇  </h6>
+    <button className='mx-auto d-block' style={{padding:10,width:150,borderRadius:50,background:"#fff"}} onClick={()=>navigate("/Game")}>Play Game</button>
     </Container>
     </div>
   )

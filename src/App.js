@@ -11,9 +11,11 @@ import About from "./component/About";
 import Knowladge from "./component/Knowladge";
 import Work from "./component/Work";
 import NavbarBootsrap from "./component/NavbarBootsrap";
-
 import ParticleBackground2 from "./component/ParticleBackground2";
 import ParticleBackground from "./component/ParticleBackground";
+import { Routes, Route } from "react-router-dom"
+import Home from "./component/Home";
+import Game from "./component/Game";
 
 function App() {
  
@@ -21,13 +23,11 @@ function App() {
 
   return (
   <>
- <NavbarBootsrap/>
-   <TopHeader/>
-   <About/>
-    <Knowladge style={{marginTop:20}} />
-    <Work style={{marginTop:20}}/>
-    <br></br> <br></br>
-   <ParticleBackground2/>
+    <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="/Game" element={ <Game/> } />
+      </Routes>
+ 
   </>
   );
 }
