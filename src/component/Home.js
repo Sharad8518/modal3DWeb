@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import About from './About'
 import Work from './Work'
 import NavbarBootsrap from './NavbarBootsrap'
@@ -7,6 +7,8 @@ import Knowladge from './Knowladge'
 import ParticleBackground2 from './ParticleBackground2'
 
 export default function Home() {
+
+  
   return (
     <>
     <NavbarBootsrap/>

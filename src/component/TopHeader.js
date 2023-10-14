@@ -5,7 +5,9 @@ import { House } from "./House";
 import { OrbitControls } from "@react-three/drei";
 import { Container,Row,Col } from "react-bootstrap";
 import "../componetCss/topHeader.css"
+import EarthMove from "./EarthMove";
 
+ 
 export default function TopHeader() {
 
   
@@ -52,7 +54,7 @@ export default function TopHeader() {
       <directionalLight intensity={0.5}/>
       <ambientLight intensity={0.2}/>
       <Suspense  fallback={null}>
-      <House/>
+      <EarthMove/>
       </Suspense>
     </Canvas>
   
